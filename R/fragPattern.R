@@ -51,12 +51,10 @@ setMethod("show","fragPattern",function(object){
 #' called directly by the user.
 #'
 #' @param rlist rlist is a list containg 2 fields,
-#' \begin{itemize}
-#' \item \textbf{edges:} An edge list which includes the "from","to" and "lab" fileds, which by processed
+#' \code{edges}: An edge list which includes the "from","to" and "lab" fileds, which by processed
 #' by the graph_from_data_frame function.
-#' \item \textbf{occurences:} A matrix with 2 column, the first giving the id in which the patterns are found
+#' \code{occurences}: A matrix with 2 column, the first giving the id in which the patterns are found
 #' and the second giving the nodes.
-#' \end{itemize}
 #'
 #' @return
 #'

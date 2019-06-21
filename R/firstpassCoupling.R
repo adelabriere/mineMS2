@@ -24,13 +24,11 @@ convertComponent <- function(comp,ids){
 #' @param threshold The threshold used to discriminate the dataset
 #'
 #' @return A list containing one data.frame by component including the following informations:
-#' \describe{
-#' \item[id] The id of the matched patterns.
-#' \item[f1] The F1-score between the pattern and the component.
-#' \item[accuracy] The accuracy between the pattern and the component.
-#' \item[recall] The recall between the pattern and the component.
-#' \item[miss] The miss rate between the pattern and the component.
-#' }
+#'   \code{id} The id of the matched patterns.
+#'   \code{f1} The F1-score between the pattern and the component.
+#'   \code{accuracy} The accuracy between the pattern and the component.
+#'   \code{recall} The recall between the pattern and the component.
+#'   \code{miss} The miss rate between the pattern and the component.
 #' @export
 #'
 #' @examples

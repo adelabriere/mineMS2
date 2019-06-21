@@ -74,7 +74,7 @@ reorderAtom <- function(atoms){
 #' @param precPpm The ppm tolerance used ot match the precursor mz to the fragments.
 #' @param precDmz The minimum tolerance used to match the precursor mz to the fragments.
 #' @param atoms A list of the maximum number of atoms authorized during the formula generation process.
-#' If it is NULL, the default list is C:limMzFormula[2]%/%12, H:50, N:6 ,O:6.
+#' If it is NULL, the default list is \code{C:limMzFormula[2]%/%12, H:50, N:6 ,O:6}.
 #' @param heteroAtoms a boolean,  ignored if a custom atoms is furnished, add heteroatoms P, Cl, S as possible atoms.
 #' @param mzDigits The number of decimals to write as an information in the graphs.
 #' @param penalizedLosses A chracter vector, the losses which will be penalized. If NULL the table penalizedLossDefault() is used.
@@ -495,7 +495,7 @@ discretizeMassesDifferences <- function(list_spec,
 #' @param precPpm The ppm tolerance used ot match the precursor mz to the fragments.
 #' @param precDmz The minimum tolerance used to match the precursor mz to the fragments.
 #' @param atoms A list of the maximum number of atoms authorized during the formula generation process.
-#' If it is NULL, the default list is C:limMzFormula[2]%/%12, H:50, N:6 ,O:6.
+#' If it is NULL, the default list is \code{C:limMzFormula[2]%/%12, H:50, N:6 ,O:6}.
 #' @param heteroAtoms a boolean,  ignored if a custom atoms is furnished, add heteroatoms P, Cl, S as possible atoms.
 #' @param mzDigits The number of decimals to write as an information in the graphs.
 #'

@@ -21,8 +21,8 @@ column is used to match the filenames. A "composition" or "formula" fields may a
 formula of the molecules.}
 
 \item{ids}{A supplementary vector giving a set of ids to design the spectra. It may be any character vector which
-does not start with \textbf{P,L,S} as they are used internally by mineMS2. Alternatively if a suppInfos table is furnished
-and it contains an id fields, it will be used. If not ids is furnished and id will be generated for each spectra as S1,S2,...,SN
+does not start with \code{'P', 'L', 'S'} as they are used internally by mineMS2. Alternatively if a suppInfos table is furnished
+and it contains an id fields, it will be used. If no ids are furnished, an id will be generated for each spectra in the form \code{'S1', 'S2', ..., 'SN'}
 where N is the number of furnished spectra.}
 
 \item{infosFromFiles}{Shall the other informations present in the files be added to the supplementary infos.}

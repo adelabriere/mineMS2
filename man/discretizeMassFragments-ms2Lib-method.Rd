@@ -36,9 +36,6 @@ higher term won't have formula check.}
 
 \item{precDmz}{The minimum tolerance used to match the precursor mz to the fragments.}
 
-\item{atoms}{A list of the maximum number of atoms authorized during the formula generation process.
-If it is NULL, the default list is C:limMzFormula[2]%/%12, H:50, N:6 ,O:6.}
-
 \item{heteroAtoms}{a boolean,  ignored if a custom atoms is furnished, add heteroatoms P, Cl, S as possible atoms.}
 
 \item{mzDigits}{The number of decimals to write as an information in the graphs.}

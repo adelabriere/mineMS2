@@ -217,8 +217,8 @@ convert_formula <- function(form_vec){
 #' column is used to match the filenames. A "composition" or "formula" fields may also be present, and is then used to set the
 #' formula of the molecules.
 #' @param ids A supplementary vector giving a set of ids to design the spectra. It may be any character vector which
-#' does not start with \textbf{P,L,S} as they are used internally by mineMS2. Alternatively if a suppInfos table is furnished
-#' and it contains an id fields, it will be used. If not ids is furnished and id will be generated for each spectra as S1,S2,...,SN
+#' does not start with \code{'P', 'L', 'S'} as they are used internally by mineMS2. Alternatively if a suppInfos table is furnished
+#' and it contains an id fields, it will be used. If no ids are furnished, an id will be generated for each spectra in the form \code{'S1', 'S2', ..., 'SN'}
 #' where N is the number of furnished spectra.
 #' @param infosFromFiles Shall the other informations present in the files be added to the supplementary infos.
 #' @examples
@@ -579,11 +579,9 @@ setMethod('[','ms2Lib',function(x,i,j=NULL,...,drop=TRUE){
 
 #' Plot an element given an idx
 #'
-#' The method depends of the tyep of the ID furnished. The following prefixes are supported :
-#' \begin{itemize}
-#' \item \textbf{P} A pattern is called plot method of fragPattern object.
-#' \item \textbf{S} A spectrum is plotted calling the Plot method of spectrum 2 object.
-#' \end{itemize}
+#' The method depends of the type of the ID furnished. The following prefixes are supported:
+#' \code{'P'} A pattern is called plot method of fragPattern object.
+#' \code{'S'} A spectrum is plotted calling the Plot method of spectrum 2 object.
 #' Any other value will be removed.
 #'
 #' @param x An ms2Lib oject.

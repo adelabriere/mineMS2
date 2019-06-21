@@ -18,10 +18,8 @@
 a fragPattern object of an igraph graph object.
 }
 \description{
-The method depends of the tyep of the ID furnished. The following prefixes are supported :
-\begin{itemize}
-\item \textbf{P} A pattern is called plot method of fragPattern object.
-\item \textbf{S} A spectrum is plotted calling the Plot method of spectrum 2 object.
-\end{itemize}
+The method depends of the type of the ID furnished. The following prefixes are supported:
+\code{'P'} A pattern is called plot method of fragPattern object.
+\code{'S'} A spectrum is plotted calling the Plot method of spectrum 2 object.
 Any other value will be removed.
 }

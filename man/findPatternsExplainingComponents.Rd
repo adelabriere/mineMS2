@@ -18,13 +18,11 @@ findPatternsExplainingComponents(m2l, components, metric = c("f1"),
 }
 \value{
 A list containing one data.frame by component including the following informations:
-\describe{
-\item[id] The id of the matched patterns.
-\item[f1] The F1-score between the pattern and the component.
-\item[accuracy] The accuracy between the pattern and the component.
-\item[recall] The recall between the pattern and the component.
-\item[miss] The miss rate between the pattern and the component.
-}
+  \code{id} The id of the matched patterns.
+  \code{f1} The F1-score between the pattern and the component.
+  \code{accuracy} The accuracy between the pattern and the component.
+  \code{recall} The recall between the pattern and the component.
+  \code{miss} The miss rate between the pattern and the component.
 }
 \description{
 Find pattern maximizing the socre givne in metrics with each components. Threshold may be used to indicate that not match

@@ -3,3 +3,4 @@
 .Rproj.user
 src/*.o
 .RData
+tests/testthat/*.pdf

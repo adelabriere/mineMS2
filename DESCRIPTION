@@ -9,6 +9,9 @@ Description: Mine MS-MS spectra using a frequent usbgraph mining approach.
 Depends:
     R (>= 3.3.0),
 	BH
+Suggests:
+	devtools,
+	testthat (>= 2.0.0),
 Imports: Rcpp (>= 0.12.13),
     MSnbase,
 	igraph,

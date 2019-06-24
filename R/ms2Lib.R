@@ -150,7 +150,7 @@ recognisedFormat <- function(){
 
 ###Parse an mgf and return a list of the Spectrum2 object
 parse_mgf_spectrum2 <- function(filename){
-	msnexp <- MSnbase::readMgfData(filename,verbose = TRUE)
+	msnexp <- MSnbase::readMgfData(filename)
 	lspec <- vector(mode="list",length=length(msnexp))
 	for(i in 1:length(msnexp)){
 

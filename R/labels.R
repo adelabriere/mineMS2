@@ -227,11 +227,9 @@ chooseVerticesLosses <- function(lf,oformula,dags,mzv,vrdbe,atoms,subformula = N
   
   ###We keep the one the closest to the furnished mass.
   if(length(bloss)>1){
+  print(atoms)
     m_atoms <- getAtomsMass(atoms)
-	print('-------------------------------- chooseVerticesLosses 62')
-	print(m_atoms)
     vmz <- lf@formula[bloss,] %*% m_atoms
-	print('-------------------------------- chooseVerticesLosses 63')
     rdbe <- calcRDBE_raw(lf@formula[bloss,],vrdbe)
     
     ####Now we split the value of t

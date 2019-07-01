@@ -1,0 +1,2274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_GNPSLibraryURL" for="node" attr.name="GNPSLibraryURL" attr.type="string"/>
+  <key id="v_INCHI" for="node" attr.name="INCHI" attr.type="string"/>
+  <key id="v_Data_Collector" for="node" attr.name="Data_Collector" attr.type="string"/>
+  <key id="v_SharedPeaks" for="node" attr.name="SharedPeaks" attr.type="string"/>
+  <key id="v_Adduct" for="node" attr.name="Adduct" attr.type="string"/>
+  <key id="v_Compound_Name" for="node" attr.name="Compound_Name" attr.type="string"/>
+  <key id="v_MZErrorPPM" for="node" attr.name="MZErrorPPM" attr.type="string"/>
+  <key id="v_MQScore" for="node" attr.name="MQScore" attr.type="string"/>
+  <key id="v_Smiles" for="node" attr.name="Smiles" attr.type="string"/>
+  <key id="v_MassDiff" for="node" attr.name="MassDiff" attr.type="string"/>
+  <key id="v_Ion_Source" for="node" attr.name="Ion_Source" attr.type="string"/>
+  <key id="v_SpectrumID" for="node" attr.name="SpectrumID" attr.type="string"/>
+  <key id="v_PI" for="node" attr.name="PI" attr.type="string"/>
+  <key id="v_Compound_Source" for="node" attr.name="Compound_Source" attr.type="string"/>
+  <key id="v_IonMode" for="node" attr.name="IonMode" attr.type="string"/>
+  <key id="v_tags" for="node" attr.name="tags" attr.type="string"/>
+  <key id="v_Library_Class" for="node" attr.name="Library_Class" attr.type="string"/>
+  <key id="v_Instrument" for="node" attr.name="Instrument" attr.type="string"/>
+  <key id="v_DefaultGroups" for="node" attr.name="DefaultGroups" attr.type="string"/>
+  <key id="v_parentmass" for="node" attr.name="parentmass" attr.type="double"/>
+  <key id="v_sum(precursor intensity)" for="node" attr.name="sum(precursor intensity)" attr.type="double"/>
+  <key id="v_cluster index" for="node" attr.name="cluster index" attr.type="double"/>
+  <key id="v_charge" for="node" attr.name="charge" attr.type="double"/>
+  <key id="v_AllGroups" for="node" attr.name="AllGroups" attr.type="string"/>
+  <key id="v_RTMean" for="node" attr.name="RTMean" attr.type="double"/>
+  <key id="v_ProteoSAFeClusterLink" for="node" attr.name="ProteoSAFeClusterLink" attr.type="string"/>
+  <key id="v_number_of_spectra" for="node" attr.name="number_of_spectra" attr.type="double"/>
+  <key id="v_G6" for="node" attr.name="G6" attr.type="double"/>
+  <key id="v_G1" for="node" attr.name="G1" attr.type="double"/>
+  <key id="v_G2" for="node" attr.name="G2" attr.type="double"/>
+  <key id="v_G3" for="node" attr.name="G3" attr.type="double"/>
+  <key id="v_G4" for="node" attr.name="G4" attr.type="double"/>
+  <key id="v_G5" for="node" attr.name="G5" attr.type="double"/>
+  <key id="v_precursor mass" for="node" attr.name="precursor mass" attr.type="double"/>
+  <key id="v_RTConsensus" for="node" attr.name="RTConsensus" attr.type="double"/>
+  <key id="v_id" for="node" attr.name="id" attr.type="string"/>
+  <key id="v_Comp1" for="node" attr.name="Comp1" attr.type="double"/>
+  <key id="v_Consensus" for="node" attr.name="Consensus" attr.type="string"/>
+  <key id="v_PattMaxFComp1" for="node" attr.name="PattMaxFComp1" attr.type="double"/>
+  <key id="v_ConsensusPatt" for="node" attr.name="ConsensusPatt" attr.type="string"/>
+  <key id="v_F1" for="node" attr.name="F1" attr.type="double"/>
+  <key id="v_name_mzrt" for="node" attr.name="name_mzrt" attr.type="string"/>
+  <key id="e_node2" for="edge" attr.name="node2" attr.type="string"/>
+  <key id="e_cosine_score" for="edge" attr.name="cosine_score" attr.type="double"/>
+  <key id="e_node1" for="edge" attr.name="node1" attr.type="string"/>
+  <key id="e_component" for="edge" attr.name="component" attr.type="double"/>
+  <key id="e_explained_intensity" for="edge" attr.name="explained_intensity" attr.type="double"/>
+  <key id="e_property1" for="edge" attr.name="property1" attr.type="string"/>
+  <key id="e_EdgeAnnotation" for="edge" attr.name="EdgeAnnotation" attr.type="string"/>
+  <key id="e_mass_difference" for="edge" attr.name="mass_difference" attr.type="string"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">28</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=28</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">377.16</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">28</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ377.16
+RT18.4</data>
+    </node>
+    <node id="n1">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">43</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=43</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">513.21</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">43</data>
+      <data key="v_Comp1">1</data>
+      <data key="v_Consensus">2</data>
+      <data key="v_PattMaxFComp1">2</data>
+      <data key="v_ConsensusPatt">P13|P13</data>
+      <data key="v_F1">1</data>
+      <data key="v_name_mzrt">MZ513.21
+RT30.1</data>
+    </node>
+    <node id="n2">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">24</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=24</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">307.14</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">24</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ307.14
+RT38.5</data>
+    </node>
+    <node id="n3">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">25</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=25</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">335.22</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">25</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ335.22
+RT36.8</data>
+    </node>
+    <node id="n4">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">26</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=26</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">341.16</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">26</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ341.16
+RT15.1</data>
+    </node>
+    <node id="n5">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">27</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=27</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">364.17</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">27</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ364.17
+RT8.8</data>
+    </node>
+    <node id="n6">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">20</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=20</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">242.16</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">20</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ242.16
+RT16.1</data>
+    </node>
+    <node id="n7">
+      <data key="v_GNPSLibraryURL">http://gnps.ucsd.edu/ProteoSAFe/gnpslibraryspectrum.jsp?SpectrumID=CCMSLIB00003137381</data>
+      <data key="v_INCHI">N/A</data>
+      <data key="v_Data_Collector">Data deposited by alchemistmatt</data>
+      <data key="v_SharedPeaks">9</data>
+      <data key="v_Adduct">M+H-H2O</data>
+      <data key="v_Compound_Name">Spectral Match to 13-Keto-9Z,11E-octadecadienoic acid from NIST14</data>
+      <data key="v_MZErrorPPM">36.109</data>
+      <data key="v_MQScore">0.759207</data>
+      <data key="v_Smiles">N/A</data>
+      <data key="v_MassDiff">0.0100098</data>
+      <data key="v_Ion_Source">ESI</data>
+      <data key="v_SpectrumID">CCMSLIB00003137381</data>
+      <data key="v_PI">Data from Yoshihiro Kawaoka, Katrina Waters, Richard Smith and Thomas Metz</data>
+      <data key="v_Compound_Source">Isolated</data>
+      <data key="v_IonMode">Positive</data>
+      <data key="v_tags"> </data>
+      <data key="v_Library_Class">3</data>
+      <data key="v_Instrument">IT/ion trap</data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">21</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=21</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">277.22</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">21</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ277.22
+RT39.4</data>
+    </node>
+    <node id="n8">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">22</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=22</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">284.14</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">22</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ284.14
+RT22.8</data>
+    </node>
+    <node id="n9">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">23</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=23</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">299.09</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">23</data>
+      <data key="v_Comp1">3</data>
+      <data key="v_Consensus">4</data>
+      <data key="v_PattMaxFComp1">4</data>
+      <data key="v_ConsensusPatt">P5|NA</data>
+      <data key="v_F1">0.8</data>
+      <data key="v_name_mzrt">MZ299.09
+RT11.5</data>
+    </node>
+    <node id="n10">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">44</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=44</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">513.21</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">44</data>
+      <data key="v_Comp1">1</data>
+      <data key="v_Consensus">2</data>
+      <data key="v_PattMaxFComp1">2</data>
+      <data key="v_ConsensusPatt">P13|P13</data>
+      <data key="v_F1">1</data>
+      <data key="v_name_mzrt">MZ513.21
+RT31.4</data>
+    </node>
+    <node id="n11">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">45</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=45</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">623.32</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">45</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ623.32
+RT36.3</data>
+    </node>
+    <node id="n12">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">42</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=42</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">513.21</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">42</data>
+      <data key="v_Comp1">1</data>
+      <data key="v_Consensus">2</data>
+      <data key="v_PattMaxFComp1">2</data>
+      <data key="v_ConsensusPatt">P13|P13</data>
+      <data key="v_F1">1</data>
+      <data key="v_name_mzrt">MZ513.21
+RT27.1</data>
+    </node>
+    <node id="n13">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">29</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=29</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">377.16</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">29</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ377.16
+RT12.8</data>
+    </node>
+    <node id="n14">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">40</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=40</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">513.21</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">40</data>
+      <data key="v_Comp1">1</data>
+      <data key="v_Consensus">2</data>
+      <data key="v_PattMaxFComp1">2</data>
+      <data key="v_ConsensusPatt">P13|P13</data>
+      <data key="v_F1">1</data>
+      <data key="v_name_mzrt">MZ513.21
+RT26.3</data>
+    </node>
+    <node id="n15">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">41</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=41</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">513.21</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">41</data>
+      <data key="v_Comp1">2</data>
+      <data key="v_Consensus">3</data>
+      <data key="v_PattMaxFComp1">2</data>
+      <data key="v_ConsensusPatt">P13|NA</data>
+      <data key="v_F1">1</data>
+      <data key="v_name_mzrt">MZ513.21
+RT20.6</data>
+    </node>
+    <node id="n16">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">1</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=1</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">235.1</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">1</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ235.10
+RT8.3</data>
+    </node>
+    <node id="n17">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">3</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=3</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">251.09</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">3</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ251.09
+RT23.5</data>
+    </node>
+    <node id="n18">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">2</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=2</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">248.09</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">2</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ248.09
+RT11.4</data>
+    </node>
+    <node id="n19">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">5</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=5</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">334.23</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">5</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ334.23
+RT15.8</data>
+    </node>
+    <node id="n20">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">4</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=4</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">257.14</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">4</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ257.14
+RT13.6</data>
+    </node>
+    <node id="n21">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">7</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=7</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">337.15</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">7</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ337.15
+RT38.1</data>
+    </node>
+    <node id="n22">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">6</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=6</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">335.22</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">6</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ335.22
+RT36.2</data>
+    </node>
+    <node id="n23">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">9</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=9</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">353.15</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">9</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ353.15
+RT32.0</data>
+    </node>
+    <node id="n24">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">8</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=8</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">341.16</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">8</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ341.16
+RT20.1</data>
+    </node>
+    <node id="n25">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">39</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=39</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">513.21</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">39</data>
+      <data key="v_Comp1">1</data>
+      <data key="v_Consensus">2</data>
+      <data key="v_PattMaxFComp1">2</data>
+      <data key="v_ConsensusPatt">P13|P13</data>
+      <data key="v_F1">1</data>
+      <data key="v_name_mzrt">MZ513.21
+RT24.6</data>
+    </node>
+    <node id="n26">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">12</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=12</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">370.13</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">12</data>
+      <data key="v_Comp1">3</data>
+      <data key="v_Consensus">4</data>
+      <data key="v_PattMaxFComp1">4</data>
+      <data key="v_ConsensusPatt">P5|NA</data>
+      <data key="v_F1">0.8</data>
+      <data key="v_name_mzrt">MZ370.13
+RT26.5</data>
+    </node>
+    <node id="n27">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">11</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=11</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">364.17</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">11</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ364.17
+RT3.6</data>
+    </node>
+    <node id="n28">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">10</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=10</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">355.11</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">10</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ355.11
+RT28.1</data>
+    </node>
+    <node id="n29">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">13</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=13</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">373.24</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">13</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ373.24
+RT16.0</data>
+    </node>
+    <node id="n30">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">38</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=38</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">511.29</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">38</data>
+      <data key="v_Comp1">4</data>
+      <data key="v_Consensus">5</data>
+      <data key="v_PattMaxFComp1">5</data>
+      <data key="v_ConsensusPatt">P51|P54|P67|P108|P153|NA</data>
+      <data key="v_F1">1</data>
+      <data key="v_name_mzrt">MZ511.29
+RT18.6</data>
+    </node>
+    <node id="n31">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">15</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=15</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">404.09</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">15</data>
+      <data key="v_Comp1">3</data>
+      <data key="v_Consensus">4</data>
+      <data key="v_PattMaxFComp1">4</data>
+      <data key="v_ConsensusPatt">P5|NA</data>
+      <data key="v_F1">0.8</data>
+      <data key="v_name_mzrt">MZ404.09
+RT33.1</data>
+    </node>
+    <node id="n32">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">14</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=14</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">375.14</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">14</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ375.14
+RT18.7</data>
+    </node>
+    <node id="n33">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">17</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=17</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">129.05</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">17</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ129.05
+RT7.6</data>
+    </node>
+    <node id="n34">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">16</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=16</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">406.18</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">16</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ406.18
+RT8.8</data>
+    </node>
+    <node id="n35">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">19</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=19</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">231.12</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">19</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ231.12
+RT5.6</data>
+    </node>
+    <node id="n36">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">18</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=18</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">147.06</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">18</data>
+      <data key="v_Comp1">5</data>
+      <data key="v_Consensus">6</data>
+      <data key="v_PattMaxFComp1">1</data>
+      <data key="v_ConsensusPatt">P101|P126|NA</data>
+      <data key="v_F1">1</data>
+      <data key="v_name_mzrt">MZ147.06
+RT3.1</data>
+    </node>
+    <node id="n37">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">31</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=31</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">391.14</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">31</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ391.14
+RT21.0</data>
+    </node>
+    <node id="n38">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">30</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=30</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">391.14</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">30</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ391.14
+RT13.5</data>
+    </node>
+    <node id="n39">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">37</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=37</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">511.29</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">37</data>
+      <data key="v_Comp1">4</data>
+      <data key="v_Consensus">5</data>
+      <data key="v_PattMaxFComp1">5</data>
+      <data key="v_ConsensusPatt">P51|P54|P67|P108|P153|NA</data>
+      <data key="v_F1">1</data>
+      <data key="v_name_mzrt">MZ511.29
+RT17.9</data>
+    </node>
+    <node id="n40">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">36</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=36</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">509.29</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">36</data>
+      <data key="v_Comp1">6</data>
+      <data key="v_Consensus">7</data>
+      <data key="v_PattMaxFComp1">3</data>
+      <data key="v_ConsensusPatt">P45|P60|NA</data>
+      <data key="v_F1">1</data>
+      <data key="v_name_mzrt">MZ509.29
+RT25.2</data>
+    </node>
+    <node id="n41">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">35</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=35</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">509.29</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">35</data>
+      <data key="v_Comp1">6</data>
+      <data key="v_Consensus">7</data>
+      <data key="v_PattMaxFComp1">3</data>
+      <data key="v_ConsensusPatt">P45|P60|NA</data>
+      <data key="v_F1">1</data>
+      <data key="v_name_mzrt">MZ509.29
+RT26.2</data>
+    </node>
+    <node id="n42">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">34</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=34</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">312.29</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">34</data>
+      <data key="v_Comp1">5</data>
+      <data key="v_Consensus">6</data>
+      <data key="v_PattMaxFComp1">1</data>
+      <data key="v_ConsensusPatt">P101|P126|NA</data>
+      <data key="v_F1">1</data>
+      <data key="v_name_mzrt">MZ312.29
+RT31.9</data>
+    </node>
+    <node id="n43">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">33</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=33</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">416.17</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">33</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ416.17
+RT14.6</data>
+    </node>
+    <node id="n44">
+      <data key="v_GNPSLibraryURL"></data>
+      <data key="v_INCHI"></data>
+      <data key="v_Data_Collector"></data>
+      <data key="v_SharedPeaks"></data>
+      <data key="v_Adduct"></data>
+      <data key="v_Compound_Name"></data>
+      <data key="v_MZErrorPPM"></data>
+      <data key="v_MQScore"></data>
+      <data key="v_Smiles"></data>
+      <data key="v_MassDiff"></data>
+      <data key="v_Ion_Source"></data>
+      <data key="v_SpectrumID"></data>
+      <data key="v_PI"></data>
+      <data key="v_Compound_Source"></data>
+      <data key="v_IonMode"></data>
+      <data key="v_tags"></data>
+      <data key="v_Library_Class"></data>
+      <data key="v_Instrument"></data>
+      <data key="v_DefaultGroups">G1</data>
+      <data key="v_parentmass">0</data>
+      <data key="v_sum(precursor intensity)">0</data>
+      <data key="v_cluster index">32</data>
+      <data key="v_charge">0</data>
+      <data key="v_AllGroups"> </data>
+      <data key="v_RTMean">0</data>
+      <data key="v_ProteoSAFeClusterLink">https://gnps.ucsd.edu//ProteoSAFe/result.jsp?task=6386a340a40046c1aa912ae0987d9380&amp;view=cluster_details&amp;protein=32</data>
+      <data key="v_number_of_spectra">0</data>
+      <data key="v_G6">0</data>
+      <data key="v_G1">1</data>
+      <data key="v_G2">0</data>
+      <data key="v_G3">0</data>
+      <data key="v_G4">0</data>
+      <data key="v_G5">0</data>
+      <data key="v_precursor mass">393.16</data>
+      <data key="v_RTConsensus">0</data>
+      <data key="v_id">32</data>
+      <data key="v_Comp1">0</data>
+      <data key="v_Consensus">1</data>
+      <data key="v_PattMaxFComp1">-2147483648</data>
+      <data key="v_ConsensusPatt">NA|NA</data>
+      <data key="v_F1">-1</data>
+      <data key="v_name_mzrt">MZ393.16
+RT9.4</data>
+    </node>
+    <edge source="n1" target="n25">
+      <data key="e_node2">43</data>
+      <data key="e_cosine_score">0.7863</data>
+      <data key="e_node1">39</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">39</data>
+      <data key="e_property1">39</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">0.000</data>
+    </edge>
+    <edge source="n1" target="n12">
+      <data key="e_node2">43</data>
+      <data key="e_cosine_score">0.8716</data>
+      <data key="e_node1">42</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">42</data>
+      <data key="e_property1">42</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">0.000</data>
+    </edge>
+    <edge source="n1" target="n10">
+      <data key="e_node2">44</data>
+      <data key="e_cosine_score">0.7735</data>
+      <data key="e_node1">43</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">43</data>
+      <data key="e_property1">43</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">0.000</data>
+    </edge>
+    <edge source="n1" target="n14">
+      <data key="e_node2">43</data>
+      <data key="e_cosine_score">0.7965</data>
+      <data key="e_node1">40</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">40</data>
+      <data key="e_property1">40</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">0.000</data>
+    </edge>
+    <edge source="n1" target="n15">
+      <data key="e_node2">43</data>
+      <data key="e_cosine_score">0.735</data>
+      <data key="e_node1">41</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">41</data>
+      <data key="e_property1">41</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">0.000</data>
+    </edge>
+    <edge source="n9" target="n26">
+      <data key="e_node2">23</data>
+      <data key="e_cosine_score">0.8135</data>
+      <data key="e_node1">12</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">12</data>
+      <data key="e_property1">12</data>
+      <data key="e_EdgeAnnotation">C3H5NO</data>
+      <data key="e_mass_difference">71.040</data>
+    </edge>
+    <edge source="n10" target="n25">
+      <data key="e_node2">44</data>
+      <data key="e_cosine_score">0.7027</data>
+      <data key="e_node1">39</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">39</data>
+      <data key="e_property1">39</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">0.000</data>
+    </edge>
+    <edge source="n10" target="n12">
+      <data key="e_node2">44</data>
+      <data key="e_cosine_score">0.7717</data>
+      <data key="e_node1">42</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">42</data>
+      <data key="e_property1">42</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">0.000</data>
+    </edge>
+    <edge source="n10" target="n14">
+      <data key="e_node2">44</data>
+      <data key="e_cosine_score">0.7364</data>
+      <data key="e_node1">40</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">40</data>
+      <data key="e_property1">40</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">0.000</data>
+    </edge>
+    <edge source="n10" target="n15">
+      <data key="e_node2">44</data>
+      <data key="e_cosine_score">0.7063</data>
+      <data key="e_node1">41</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">41</data>
+      <data key="e_property1">41</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">0.000</data>
+    </edge>
+    <edge source="n12" target="n25">
+      <data key="e_node2">42</data>
+      <data key="e_cosine_score">0.8581</data>
+      <data key="e_node1">39</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">39</data>
+      <data key="e_property1">39</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">0.000</data>
+    </edge>
+    <edge source="n12" target="n14">
+      <data key="e_node2">42</data>
+      <data key="e_cosine_score">0.8462</data>
+      <data key="e_node1">40</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">40</data>
+      <data key="e_property1">40</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">0.000</data>
+    </edge>
+    <edge source="n12" target="n15">
+      <data key="e_node2">42</data>
+      <data key="e_cosine_score">0.7743</data>
+      <data key="e_node1">41</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">41</data>
+      <data key="e_property1">41</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">0.000</data>
+    </edge>
+    <edge source="n14" target="n25">
+      <data key="e_node2">40</data>
+      <data key="e_cosine_score">0.9161</data>
+      <data key="e_node1">39</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">39</data>
+      <data key="e_property1">39</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">0.000</data>
+    </edge>
+    <edge source="n14" target="n15">
+      <data key="e_node2">41</data>
+      <data key="e_cosine_score">0.7005</data>
+      <data key="e_node1">40</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">40</data>
+      <data key="e_property1">40</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">0.000</data>
+    </edge>
+    <edge source="n26" target="n31">
+      <data key="e_node2">15</data>
+      <data key="e_cosine_score">0.9491</data>
+      <data key="e_node1">12</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">12</data>
+      <data key="e_property1">12</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">-33.960</data>
+    </edge>
+    <edge source="n30" target="n39">
+      <data key="e_node2">38</data>
+      <data key="e_cosine_score">0.8226</data>
+      <data key="e_node1">37</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">37</data>
+      <data key="e_property1">37</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">0.000</data>
+    </edge>
+    <edge source="n36" target="n42">
+      <data key="e_node2">34</data>
+      <data key="e_cosine_score">0.7014</data>
+      <data key="e_node1">18</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">18</data>
+      <data key="e_property1">18</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">-165.230</data>
+    </edge>
+    <edge source="n40" target="n41">
+      <data key="e_node2">36</data>
+      <data key="e_cosine_score">0.8411</data>
+      <data key="e_node1">35</data>
+      <data key="e_component">-1</data>
+      <data key="e_explained_intensity">35</data>
+      <data key="e_property1">35</data>
+      <data key="e_EdgeAnnotation"></data>
+      <data key="e_mass_difference">0.000</data>
+    </edge>
+  </graph>
+</graphml>

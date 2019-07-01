@@ -188,7 +188,7 @@ getSubformulaLossVertices_afg <- function(g,occs,dags,edge_labels,atoms,label_or
 chooseVerticesLosses <- function(lf,oformula,dags,mzv,vrdbe,atoms,subformula = NULL){
   # function(lf,oformula,mzv,atoms,vrdbe,subformula = NULL){
   ###Solo
-  if(length(lf)==1){
+  if(length(lf) == 1){
     vm <- sapply(oformula,isSubformula,x=lf,simplify=TRUE)
     
     return(c(1,1,as.numeric(all(vm))))
@@ -197,10 +197,10 @@ chooseVerticesLosses <- function(lf,oformula,dags,mzv,vrdbe,atoms,subformula = N
   bloss <- NULL
   bpartial <- 0
   bsolo <- 0
-  if((length(oformula)==0)|((length(oformula)==1)&&is.na(oformula))){
+  pok <- 1:length(lf)
+  if((length(oformula) == 0) || ((length(oformula) == 1) && is.na(oformula))) {
     bloss <- 1:length(lf)
-  }else{
-    pok <- 1:length(lf)
+  } else {
     ####If a possible subformula is furnished, the possible formula of the vertices are restricted.
     if(!is.null(subformula)){
       vm_sub <- isSubformula(as.integer(subformula),lf)
@@ -214,33 +214,36 @@ chooseVerticesLosses <- function(lf,oformula,dags,mzv,vrdbe,atoms,subformula = N
       }
     }
     
-    if((length(lf)>1)&(length(oformula)>0)){
+    if((length(lf) > 1) && (length(oformula) > 0)) {
       ###Majority vote.
       vm <- sapply(oformula,isSubformula,x=lf,type="none",simplify=TRUE)
       if(is.null(dim(vm))) browser()
       bf <- apply(vm,1,sum)
-      bloss <- which(bf==max(bf))
-    }else{
+      bloss <- which(bf == max(bf))
+    } else {
       bloss <- 1
     }
   }
   
-  ###We keep the one the closest to the furnished mass.
-  if(length(bloss)>1){
-  print(atoms)
+  # We keep the one the closest to the furnished mass.
+  if(length(bloss) > 1) {
     m_atoms <- getAtomsMass(atoms)
     vmz <- lf@formula[bloss,] %*% m_atoms
     rdbe <- calcRDBE_raw(lf@formula[bloss,],vrdbe)
     
-    ####Now we split the value of t
-    
+    # Now we split the value of t
     bloss <- bloss[which.min(abs(vmz-mzv)*10^6/mzv+abs(rdbe))]
-    bpartial <- as.numeric(as.numeric(bf[bloss])==nrow(lf@formula))
-  }else{
+    if ((length(lf) > 1) && (length(oformula) > 0)) {
+      vm <- sapply(oformula,isSubformula,x=lf,type="none",simplify=TRUE)
+      bf <- apply(vm,1,sum)
+      bpartial <- as.numeric(as.numeric(bf[bloss]) == nrow(lf@formula))
+    }
+  } else {
     bsolo <- 1
   }
-  ###We return the subformula with the maximum size
-  resv <- c(pok[bloss],bsolo,bpartial)
+
+  # We return the subformula with the maximum size
+  resv <- c(pok[bloss], bsolo, bpartial)
   # if(abs((mzv-161.0362)<0.002)) browser()
   
   return(resv)
@@ -308,7 +311,7 @@ makeEdgeLabelWithoutVertices <- function(lf,mzv,oformula,atoms,vrdbe){
   bpartial <- 0
   bsolo <- 0
   bf <- numeric(0)
-  if((length(oformula)==0)|((length(oformula)==1)&&is.na(oformula))){
+  if((length(oformula)==0) || ((length(oformula)==1) && is.na(oformula))) {
     bloss <- 1:length(lf)
   }else{
     ###Majority vote.
@@ -440,9 +443,8 @@ makeEdgeLabel <-
           FUN = makeEdgeLabelWithoutVertices,
           MoreArgs = list(
             'vrdbe' = vrdbe,
-            'atoms' = names(atoms),
-            'oformula' =
-              oformula
+            'atoms' = atoms,
+            'oformula' = oformula
           )
         )
         pna <- is.na(tempe[1,])

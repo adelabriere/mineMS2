@@ -194,12 +194,12 @@ annotateNetwork <- function(components,net,patterns,copy=TRUE,
 										 "cluster index","precursor mass"),sep_infos=","){
 
 	if(!is.null(keepattr)){
-		if(copy) net <- induced_subgraph(net, V(net))
-		attrnames <- vertex_attr_names(net)
+		if(copy) net <- igraph::induced_subgraph(net, V(net))
+		attrnames <- igraph::vertex_attr_names(net)
 		to_rm <- attrnames[is.na(match(attrnames,keepattr))]
 
 		for(trm in to_rm){
-		 net <- delete_vertex_attr(net, trm)
+		 net <- igraph::delete_vertex_attr(net, trm)
 		}
 	}
 

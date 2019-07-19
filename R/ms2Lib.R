@@ -253,9 +253,8 @@ ms2Lib <- function(x, suppInfos = NULL,ids = NULL, intThreshold = NULL, infosFro
 				suppMetadata <- sapply(tres,"[",i="supp")
 				
 			}else{ ###Case of a single spectra.
-				exts <- checkFormat(x)
-				message("Reading ",length(exts)," files with format(s): ",unique(exts))
-				tres <- parseMS2file_line(c(x,exts))
+				message("Reading MGF file ", x, ".")
+				tres <- parseMS2file_line(c(x, 'mgf'))
 				mm2Spectra(m2l) <- tres$spec
 				suppMetadata <- tres$supp
 				
